@@ -1,1 +1,2 @@
 # C_StopWatch
+This program creates a simple digital clock using C. It displays the current time in the format HH : MM : SS, starting from 00:00:00 and updating every second. The screen is cleared before each update to show the latest time like a real clock.  Key features:  Uses sleep(1) to wait 1 second between updates.  Clears the screen every second to simulate a live clock.  Resets seconds, minutes, and hours properly as time passes.  Uses system("cls") for Windows or system("clear") for Linux to clear the screen.
